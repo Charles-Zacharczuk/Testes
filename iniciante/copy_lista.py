@@ -3,6 +3,7 @@ Cuidados com dados mutáveis
 = - copiado o valor (imutável)
 = - aponta para o mesmo valor na memoria (mutável)
 """
+
 # nome = 'Charles'
 # outra_variavel = nome
 # nome = 'David'

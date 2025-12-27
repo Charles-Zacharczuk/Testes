@@ -3,6 +3,7 @@ Repetições
 while (enquanto)
 Executa uma ação enquanto uma condição for verdadeira
 """
+
 # condicao = 'True'
 
 # while condicao:
@@ -29,11 +30,11 @@ while contador <= 100:
     contador += 1
 
     if contador == 6:
-        print(f'O {contador} não vai ser mostrado')
+        print(f"O {contador} não vai ser mostrado")
         continue
 
-    if contador >=10 and contador <=27:
-        print(f'O {contador} não vai ser mostrado')
+    if contador >= 10 and contador <= 27:
+        print(f"O {contador} não vai ser mostrado")
         continue
 
     print(contador)

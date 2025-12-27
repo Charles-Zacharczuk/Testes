@@ -1,18 +1,19 @@
 """
 Enumerate - enumera iteraveis (indices)
 """
-lista = ['Charles', 'David', 'Zacharczuk']
-lista.append('Verlim')
+
+lista = ["Charles", "David", "Zacharczuk"]
+lista.append("Verlim")
 
 # lista_enumerada = enumerate(lista)
 
 
 # for item in lista_enumerada):
-    # print(item)
+# print(item)
 
 
 # for item in enumerate(lista):
-    # print(item)
+# print(item)
 
 
 # lista_enumerada = list(enumerate(lista))

@@ -13,8 +13,8 @@ Introdução ao desempacotamento + tubles (tuplas)
 """
 Tubles (tuplas) - Uma lista imutavel
 """
-# nomes = 'Charles', 'David', 'Zacharczuk' 
-nomes = ['Charles', 'David', 'Zacharczuk'] 
+# nomes = 'Charles', 'David', 'Zacharczuk'
+nomes = ["Charles", "David", "Zacharczuk"]
 nomes = tuple(nomes)
 nomes = list(nomes)
 print(nomes[1])

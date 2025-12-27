@@ -3,13 +3,13 @@ Listas em Python
 Tipo list - Mutável
 Suporta vários valores de qualquer tipo
 Conhecimentos reutilizáveis - índices e fatiamento
-Métodos úteis: 
-    append - Adiciona um item ao final 
-    insert - Adiciona um item no indice escolhido 
-    pop    - Remove no final ou do indice escolhido 
-    del    - Apaga um indice 
-    clear  - Limpa a lista 
-    extend - Estende a lista 
+Métodos úteis:
+    append - Adiciona um item ao final
+    insert - Adiciona um item no indice escolhido
+    pop    - Remove no final ou do indice escolhido
+    del    - Apaga um indice
+    clear  - Limpa a lista
+    extend - Estende a lista
     +      - Concatena listas
 Create Read Update   Delete
 Criar, ler, alterar, apagar = lista[i] (CRUD)
@@ -21,7 +21,7 @@ Criar, ler, alterar, apagar = lista[i] (CRUD)
 # print(bool([])) #falsy
 # print(lista, type(lista))
 
-#indices:   0    1        2       3    4
+# indices:   0    1        2       3    4
 #          -5   -4       -3      -2   -1
 # lista = [123, True, 'Charles', 1.2, []]
 # print(lista)

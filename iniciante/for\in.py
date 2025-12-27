@@ -10,10 +10,10 @@
 # print(repeticoes)
 
 
-texto = 'Python'
+texto = "Python"
 
-novo_texto = ''
+novo_texto = ""
 for letra in texto:
-    novo_texto += f'*{letra}'
+    novo_texto += f"*{letra}"
     print(letra)
-print(novo_texto + '*')
+print(novo_texto + "*")

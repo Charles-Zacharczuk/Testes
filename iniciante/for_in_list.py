@@ -1,6 +1,7 @@
 """
 For in com listas
 """
+
 lista = [1, 2, 3]
 indices = range(len(lista))
 

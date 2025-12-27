@@ -40,7 +40,7 @@ Também existe o tipo None que é usado para representar um não valor
 #     print('Sair')
 
 # Avaliação de curto circuito
-#print(True or False or True)
+# print(True or False or True)
 
 # ---------------------------------------------------------------------------------------------
 """

@@ -15,9 +15,9 @@ Faça contagem de tentativas do usuário
 
 # while palavra != palavra_digitada:
 #     palavra_digitada = input(f"Digite uma letra ({repeticoes}x: )").upper()
-    
+
 #     repeticoes += 1
-    
+
 #     if repeticoes == 10:
 #         print(f"Você perdeu, a palavra era {palavra}")
 #         break
@@ -27,7 +27,7 @@ Faça contagem de tentativas do usuário
 import os
 
 palavra_secreta = "amor"
-letras_acertadas = ''
+letras_acertadas = ""
 numero_tentativas = 0
 
 print(
@@ -35,17 +35,17 @@ print(
  cada " * " representa uma letra, e será mostrado somente após a primeira tentativa'
 )
 while True:
-    
-    letra_digitada = input('Digite uma letra: ')
+
+    letra_digitada = input("Digite uma letra: ")
     numero_tentativas += 1
 
     if len(letra_digitada) > 1:
-        print('Digite apenas uma letra.')
+        print("Digite apenas uma letra.")
         continue
-    
+
     if letra_digitada in palavra_secreta:
         letras_acertadas += letra_digitada
-    
+
     palavra_formada = ""
     for letra_secreta in palavra_secreta:
         if letra_secreta in letras_acertadas:
@@ -53,25 +53,11 @@ while True:
         else:
             palavra_formada += "*"
 
-    print(f'Palavra formada: {palavra_formada}')
+    print(f"Palavra formada: {palavra_formada}")
 
     if palavra_formada == palavra_secreta:
-        os.system('clear')
+        os.system("clear")
         print("Você ganhou!")
-        print(f'A palavra era {palavra_secreta}')
+        print(f"A palavra era {palavra_secreta}")
         letras_acertadas = ""
         numero_tentativas = 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,7 +2,7 @@
 
 # if entrada.isdigit():
 #     entrada_int = int(entrada)
-#     par_impar = entrada_int % 2 == 0 
+#     par_impar = entrada_int % 2 == 0
 #     par_impar_texto = 'impar'
 
 #     if par_impar:
@@ -11,8 +11,6 @@
 #     print(f'O número {entrada_int} é {par_impar_texto}')
 # else:
 #     print('Você não digitou um número inteiro')
-
-
 
 
 # hora_atual = input('Digite o horário: ')
@@ -39,21 +37,15 @@
 #     print('Por favor, digite apenas números inteiros')
 
 
-
-primeiro_nome = input('Digite o seu primeiro nome: ')
+primeiro_nome = input("Digite o seu primeiro nome: ")
 tamanho_nome = len(primeiro_nome)
 
 if tamanho_nome > 1:
     if tamanho_nome <= 4:
-        print('Seu nome é curto')
+        print("Seu nome é curto")
     elif tamanho_nome >= 5 and tamanho_nome <= 6:
-        print('Seu nome é normal')
+        print("Seu nome é normal")
     else:
-        print('Seu nome é muito grande')
+        print("Seu nome é muito grande")
 else:
-    print('Digite mais de uma letra')
-
-
-
-
-
+    print("Digite mais de uma letra")

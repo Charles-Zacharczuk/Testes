@@ -26,4 +26,3 @@ Strings são iteráveis (pode navegar item por item)
 #     print(f'{encontrar} está em {nome}')
 # else:
 #     print(f'{encontrar} não foi localizada')
-

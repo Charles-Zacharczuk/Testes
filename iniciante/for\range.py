@@ -2,6 +2,7 @@
 For + Range
 range -> range(start, stop, step)
 """
+
 # numeros = range(1,     10,     2)
 
 # for numero in numeros:
@@ -21,7 +22,7 @@ iter -> nme entrega seu iterador
 texto = "Charles"
 iterador = iter(texto)
 numeros = 1
-texto_1 = ''
+texto_1 = ""
 while True:
     try:
         print(next(iterador))
@@ -29,6 +30,6 @@ while True:
         break
 
 for letra in texto:
-    texto_1 += f'*{letra}'
+    texto_1 += f"*{letra}"
     print(letra)
 print(texto_1)

@@ -1,5 +1,6 @@
 from manim import *
 
+
 class TesteTexto(Scene):
     def construct(self):
         texto = Text("Olá, Manim!")
